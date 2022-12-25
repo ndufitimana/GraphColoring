@@ -36,6 +36,6 @@ random graph.
 Here is an example:
 `python3 LocalSearch.py SA -nodes 40 -p 0.45`
 
-The above key word generates a graph with 40 nodes and edges formed with a probability of 45%.
+The above key word generates a graph with 40 nodes and edges formed with a probability of 45% and use Simulated Annealing to find an optimal solutin to it.
 
 At the end of the the algorith, a colored graph is generated under the name coloredGraph.pdf. You might want to check it out. 
