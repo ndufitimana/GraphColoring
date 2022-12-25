@@ -1,0 +1,7 @@
+__pycache__
+venv
+.DS_Store
+fb-pages-tvshow
+Graphs
+*.pdf
+testGraphs.py 
