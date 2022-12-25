@@ -23,7 +23,7 @@ Use the following keywords for algorithms:
 if you do not provide any of the optinal keyword, the algorithm will use a graph from the Networking Repository(see citation in my paer). The algorithms use paramters from the file default_config.json by default.
 
 You also can alter the paramters of any algorithm you want to use.
-To do so, make a copy of the file: default_config.json and rename it to something else. Then Play around with the parameters for each algorithm. 
+To do so, make a copy of the file: default_config.json and rename it to something else. Then play around with the parameters for each algorithm. You will have to use the flag `-config [config filename]` to provide the file to the algorithm 
 
 The optional arguments will allow you to create a random graph and use it. Here are the optional arguments
 
@@ -36,6 +36,6 @@ random graph.
 Here is an example:
 `python3 LocalSearch.py SA -nodes 40 -p 0.45`
 
-The above key word generates a graph with 40 nodes and edges formed with a probability of 45% and use Simulated Annealing to find an optimal solutin to it.
+The above key word generates a graph with 40 nodes and edges formed with a probability of 45% and use Simulated Annealing to find an optimal solutin to it using the default config file.
 
 At the end of the the algorith, a colored graph is generated under the name coloredGraph.pdf. You might want to check it out. 
