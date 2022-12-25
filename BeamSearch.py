@@ -70,9 +70,3 @@ def stochastic_beam_search(problem, pop_size, steps, init_temp,
 
                 temp *=temp_decay
         return best_state, best_cost
-    
-if __name__ == '__main__':
-
-    problem = Graph("Graphs/dodecahedron.json")
-        
-    print(f"res: {stochastic_beam_search(problem, 10, 500, 200, 0.99, 5)}")

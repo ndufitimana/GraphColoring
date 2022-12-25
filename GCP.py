@@ -138,7 +138,13 @@ class Graph():
 
           
 if __name__ == "__main__":
-    g = Graph("Graphs/chrom3/octahedron.json", 3)
+    adjList = {}
+    G = nx.erdos_renyi_graph(n = 10, p=0.7)
+    chromaticNum = nx.greedy_color(G, strategy='largest_first')
+    for node in G.nodes():
+        adjList[node] = list(G.neighbors(node))
+    g = Graph(adjList,len(set(chromaticNum.values())) )
+   
     print(g)
     randomCand = g.randomCandidate()
     # print(f"random candidate: {randomCand}, random candiate cost: {g.cost(randomCand)}")

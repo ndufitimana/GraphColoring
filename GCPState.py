@@ -8,10 +8,6 @@ from random import choice
 class GCPState:
     def __init__(self, vertices, colorList):
         self.vertices = vertices
-        # if self.colorNum == 3: 
-        #     self.colors = ["red",  "blue", "yellow"] 
-        # elif self.colorNum == 4:
-        #     self.colors = ["red", "green", "blue", "yellow"]
         self.colors = colorList
         self.coloring = self.setColors() 
     def __repr__(self):
@@ -43,7 +39,7 @@ class GCPState:
 
          
 if __name__ == "__main__":
-    state = GCPState(["1", "2", "3", "4", "5"])
+    state = GCPState(range(3), [(1, 0, 0), (0, 1, 0), (0, 0, 1)] )
     print(state)
     print(state.flipColor())
    

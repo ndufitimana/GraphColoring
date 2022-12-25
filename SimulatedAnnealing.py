@@ -34,8 +34,4 @@ def simulated_annealing(problem, runs, steps, init_temp, temp_decay):
                 print("Best Cost: " , best_cost)
             temp *=temp_decay
     return best_state, best_cost
-
-if __name__=='__main__':
-    problem = Graph("Graphs/test2v.json")
-        
-    print(f"res: {simulated_annealing(problem, 10, 5000, 100, 0.999)}")    
+   

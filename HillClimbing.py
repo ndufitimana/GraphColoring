@@ -31,12 +31,4 @@ def hill_climbing(problem, runs, steps, rand_move_prob):
                 best_cost = current_cost 
                 print("The Best cost is:", best_cost)
     return best_state, best_cost
-if __name__ == "__main__":
-    #playground
-    problem = Graph("Graphs/6v.json")
-    
-    # random = g.randomCandidate()
-    # print(random)
-    # print(f"{random.cost()}")
-    # print(f"near: {random.random_neighbor(random)}")
-    print(f"res: {hill_climbing(problem, 10, 700, 0.25)}")
+
