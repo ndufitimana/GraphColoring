@@ -28,7 +28,6 @@ def parse_input():
 
 def generateGraph(nodes = None, prob=None):
     
-       
     adjList = {}
     
     if nodes and prob:
@@ -40,7 +39,6 @@ def generateGraph(nodes = None, prob=None):
         # Read the graph from the Network Repository
         with open(path, 'r') as f:
             for line in f:
-                # Split the line on the comma to get the nodes
                 nodes = line.strip().split(',')
                 edges.append((nodes[0], nodes[1]))
             # Create the graph object based on the edges
@@ -58,7 +56,6 @@ def generateGraph(nodes = None, prob=None):
 
 def main():
     args = parse_input()
-    # adjList, chromNum = generateGraph(45, 0.35)
     adjList, chromNum = generateGraph(args.nodes, args.p)
     problem = Graph(adjList, chromNum)
     if args.search == "HC":
