@@ -10,7 +10,7 @@ that generates a picture of the graph.
 
 <p align="center">
   <img src="http://g.recordit.co/xzIi1tLdp4.gif" width=500 >
-  <img src="demo.png" width=350 >
+  <img src="demo.png" width=500 >
 </p>
 
 <!-- <img src="http://g.recordit.co/xzIi1tLdp4.gif" width=350><br> -->
