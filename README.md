@@ -4,6 +4,17 @@ This repo provides 3 local search algorithms to solve Graph Coloring problem and
 here is an example:
 `python3 LocalSearch.py SA -nodes 40 -p 0.45`
 
+### Demo: Coloring an Erdos–Rényi (ER) random graph with 30 nodes and p = 0.8
+Note: the lag seen at the end of the algorithm is due to the software <br>
+that generates a picture of the graph. 
+
+<p align="center">
+  <img src="http://g.recordit.co/xzIi1tLdp4.gif" width=350 >
+  <img src="demo.png" width=350 >
+</p>
+
+<!-- <img src="http://g.recordit.co/xzIi1tLdp4.gif" width=350><br> -->
+
 ## Detailed Description
 
 

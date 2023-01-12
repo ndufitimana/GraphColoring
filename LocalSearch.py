@@ -65,8 +65,8 @@ def main():
     if args.search == "BS":
         search_alg = stochastic_beam_search
     solution, cost = search_alg(problem, **args.search_args)
-    print("coloring:")
-    print(solution)
+    # print("coloring:")
+    # print(solution)
     print(f"colors used: {chromNum}, adj vert with same color: {cost}")
     problem.plot(solution, args.plot) 
     
