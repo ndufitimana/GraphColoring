@@ -8,9 +8,10 @@ here is an example:
 Note: the lag seen at the end of the algorithm is due to the software <br>
 that generates a picture of the graph. 
 
+<p align="center">
   <img src="http://g.recordit.co/xzIi1tLdp4.gif" width=500 >
   <img src="demo.png" width=350 >
-
+</p>
 
 <!-- <img src="http://g.recordit.co/xzIi1tLdp4.gif" width=350><br> -->
 
